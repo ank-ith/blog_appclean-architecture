@@ -33,7 +33,6 @@ class _SignUpPageState extends State<SignUpPage> {
   final formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
-    //formKey.currentState!.validate();
     return Scaffold(
       appBar: AppBar(),
       body: Padding(
